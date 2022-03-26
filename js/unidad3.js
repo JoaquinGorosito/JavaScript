@@ -1,4 +1,4 @@
-//Unidad 3
+//Unidad 3-1
 
 //1)
 var noValgoNi5 = 4;
@@ -84,3 +84,85 @@ console.log(estoyAprobado);
 var esHoraDeAlmorzar = 13 <= 12;
 
 console.log(esHoraDeAlmorzar);
+
+
+//Unidad 3-2
+
+//1)
+console.log("Definicion de algoritmo: Un algoritmo es una secuencia de pasos finitos bien definidos que resuelven un problema."); 
+
+//2) 
+console.log("Definicion de pseudocodigo: El pseudocódigo es una forma de escribir los pasos que va a realizar un programa de la forma más cercana al lenguaje de programación que vamos a utilizar posteriormente. ");
+
+//3)
+//a)
+var base = 20;
+
+var altura = 15;
+
+var superficieDelRectangulo = base * altura;
+
+console.log(`La superficie del rectangulo es ${superficieDelRectangulo}`);
+
+
+var superficieDelTriangulo = (base * altura) / 2;
+
+console.log(`La superficie del triangulo es ${superficieDelTriangulo}`);
+
+
+var radio = 30;
+
+var superficieDelCirculo = Math.PI * Math.pow(radio, 2);
+
+console.log(`La superficie del circulo es ${superficieDelCirculo}`);
+
+//b)
+var num1 = 8;
+
+var num2 = 15;
+
+var num3 = 19;
+
+var producto = num1 * num2 * num3;
+console.log(`El producto es: ${producto}`);
+
+var suma = num1 + num2 + num3;
+console.log(`La suma es: ${suma}`);
+
+var promedio = suma / 3;
+console.log(`El promedio es: ${promedio}`);
+
+//c)
+var camisa = 3000;
+
+var pantalon = 3500;
+
+var remera = 2200;
+
+var campera = 6650;
+
+var medias = 800;
+
+var compra = camisa + pantalon + remera + campera + medias
+console.log(`El valor de la compra es de:$ ${compra}`);
+
+var descuento = compra * 0.15
+console.log(`El descuento es de:$ ${descuento}`);
+
+var total = compra - descuento;
+console.log(`El valor total es de:$ ${total}`);
+
+//d)
+var pesos = 1000;
+
+var dolares = pesos / 200;
+
+console.log(`Los dolares que tengo son: ${dolares}`);
+
+//e)
+var compra = 5000;
+
+var iva = 0.21;
+
+var valorIva = compra * 0.21;
+console.log(`El valor del IVA es de: ${valorIva}`);
