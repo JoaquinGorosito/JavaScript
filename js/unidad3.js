@@ -89,10 +89,10 @@ console.log(esHoraDeAlmorzar);
 //Unidad 3-2
 
 //1)
-console.log("Definicion de algoritmo: Un algoritmo es una secuencia de pasos finitos bien definidos que resuelven un problema."); 
+//console.log("Definicion de algoritmo: Un algoritmo es una secuencia de pasos finitos bien definidos que resuelven un problema."); 
 
 //2) 
-console.log("Definicion de pseudocodigo: El pseudocódigo es una forma de escribir los pasos que va a realizar un programa de la forma más cercana al lenguaje de programación que vamos a utilizar posteriormente. ");
+//console.log("Definicion de pseudocodigo: El pseudocódigo es una forma de escribir los pasos que va a realizar un programa de la forma más cercana al lenguaje de programación que vamos a utilizar posteriormente. ");
 
 //3)
 //a)
@@ -115,6 +115,25 @@ var radio = 30;
 var superficieDelCirculo = Math.PI * Math.pow(radio, 2);
 
 console.log(`La superficie del circulo es ${superficieDelCirculo}`);
+
+
+/*var figura = prompt("Ingrese cual figura quiere calcular la superficie, ej: triangulo, rectangulo o circulo");
+var base = prompt("ingrese base en cm ej:40");
+var altura = prompt("ingrese altura en cm ej:20");
+var radio = prompt("ingrese el radio del circlo")
+
+function superficie(){
+    if(figura == "triangulo"){
+        console.log((base * altura) / 2);
+    }else if(figura == "rectangulo"){
+        console.log(base*altura);
+    }else{
+        figura == "circulo";
+        console.log(Math.PI * Math.pow(radio, 2));
+    }
+}
+
+console.log(superficie()); */
 
 //b)
 var num1 = 8;
@@ -166,3 +185,15 @@ var iva = 0.21;
 
 var valorIva = compra * 0.21;
 console.log(`El valor del IVA es de: ${valorIva}`);
+
+
+var suma = 0;
+var edad = 15;
+suma = suma + edad;
+console.log(suma);
+edad = 45;
+suma = suma + edad;
+console.log(suma)
+edad = 25;
+suma = suma + edad;
+console.log(suma);
