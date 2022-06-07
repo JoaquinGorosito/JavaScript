@@ -28,40 +28,44 @@ function elMenorNumero(num1, num2) {
 
 console.log(elMenorNumero(45465, 0));
 
+
 //2)
 
 function esPar(numero) {
-  if (numero % 2 == 0) return "El numero es par";
+  if (numero % 2 == 0)
+    return "El numero es par";
   else {
     return "El numero es impar";
   }
 }
-console.log(esPar(10));
+esPar(10); // revisar
 
 //3)
 var ganeLaCarrera = false;
 
-if (ganeLaCarrera == false) console.log("Perdiste");
+if (ganeLaCarrera === false) {
+  console.log("Perdiste");
+}
 else {
   console.log("Ganaste");
 }
 
+
+// var posicionEnLaCarrera = 6;
+
+// if (posicionEnLaCarrera == 1) {
+//   console.log("FELICITACIONES, SALISTE 1RO");
+// } else if (posicionEnLaCarrera == 2) {
+//   console.log("Te falto poquito para ganar");
+// } else if (posicionEnLaCarrera == 3) {
+//   console.log("Sos un orgullo para tu familia");
+// } else if (posicionEnLaCarrera > 3) {
+//   console.log("Volve a tu casa");
+// } else {
+//   console.log("No tires fruta");
+// }
+
 //4)
-var posicionEnLaCarrera = 6;
-
-if (posicionEnLaCarrera == 1) {
-  console.log("FELICITACIONES, SALISTE 1RO");
-} else if (posicionEnLaCarrera == 2) {
-  console.log("Te falto poquito para ganar");
-} else if (posicionEnLaCarrera == 3) {
-  console.log("Sos un orgullo para tu familia");
-} else if (posicionEnLaCarrera > 3) {
-  console.log("Volve a tu casa");
-} else {
-  console.log("No tires fruta");
-}
-
-//5)
 function posicionEnLaCarrera2(numero) {
   if (numero == 1) {
     return "FELICITACIONES, SALISTE 1RO";
@@ -69,7 +73,7 @@ function posicionEnLaCarrera2(numero) {
     return "Te falto poquito para ganar";
   } else if (numero == 3) {
     return "Sos un orgullo para tu familia";
-  } else if (posicionEnLaCarrera > 3) {
+  } else if (posicionEnLaCarrera2 > 3) {
     return "Volvé a tu casa";
   } else {
     return "No tires fruta";
@@ -80,7 +84,7 @@ console.log(posicionEnLaCarrera2(6));
 
 //6)
 
-// VER !!!!
+
 function calculo(importeTotal) {
   descuento = importeTotal * 0.2;
 
@@ -90,16 +94,15 @@ function calculo(importeTotal) {
     return importeTotal;
   }
 }
-
 console.log(calculo(100050));
 
-// VER !!!!
+
 
 //7)
 let montoVendido = parseFloat(prompt("Ingrese monto vendido"));
 let codVendedor = prompt("Ingrese codigo de vendedor");
 
-function prueba() {
+function calculo() {
   if (codVendedor < 100) {
     let comisiones = montoVendido * 0.3;
     alert(
@@ -125,7 +128,7 @@ function prueba() {
   }
 }
 
-prueba();
+calculo();
 
 //8)
 let dia = prompt("introduzca un numero");
