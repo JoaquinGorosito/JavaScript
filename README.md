@@ -1,3 +1,3 @@
 # JavaScript
 
-Los ejercicios se encuentran todos en index.js y en la rama master.
+Los ejercicios se encuentran en la rama master.
