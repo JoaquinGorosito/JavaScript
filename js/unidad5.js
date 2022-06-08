@@ -54,11 +54,11 @@
  
   function prom() {
     if (promedio >= 7) {
-      console.log('Aprobado');
+      alert('Aprobado');
     } else if (promedio <= 7) {
-      console.log('Desaprobado');
+      alert('Desaprobado');
     } else {
-      console.log('ingrese un dato correcto');
+      alert('ingrese un dato correcto');
     }
   }
   prom()
